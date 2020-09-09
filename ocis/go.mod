@@ -35,8 +35,8 @@ require (
 	github.com/owncloud/ocis-reva v0.13.0
 	github.com/owncloud/ocis-settings v0.3.2-0.20200902094647-35dc3aeaba78
 	github.com/owncloud/ocis-store v0.1.1
-	github.com/owncloud/ocis-thumbnails v0.3.0
 	github.com/owncloud/ocis-webdav v0.1.1
+	github.com/refs/mono/thumbnails v0.0.0-20200909123921-603595833fb9
 	github.com/refs/pman v0.0.0-20200701173654-f05b8833071a
 	github.com/restic/calens v0.2.0
 	github.com/valyala/fasttemplate v1.2.1 // indirect
@@ -54,3 +54,5 @@ replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 replace github.com/lucas-clemente/quic-go v0.15.7 => github.com/lucas-clemente/quic-go v0.14.1
 
 replace github.com/gomodule/redigo => github.com/gomodule/redigo v1.8.2
+
+replace github.com/owncloud/ocis-webdav => ../../owncloud/ocis-webdav
