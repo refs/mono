@@ -1,4 +1,4 @@
-module github.com/owncloud/ocis-thumbnails
+module github.com/refs/mono/thumbnails
 
 go 1.13
 

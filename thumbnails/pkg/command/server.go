@@ -14,11 +14,11 @@ import (
 	"github.com/oklog/run"
 	openzipkin "github.com/openzipkin/zipkin-go"
 	zipkinhttp "github.com/openzipkin/zipkin-go/reporter/http"
-	"github.com/owncloud/ocis-thumbnails/pkg/config"
-	"github.com/owncloud/ocis-thumbnails/pkg/flagset"
-	"github.com/owncloud/ocis-thumbnails/pkg/metrics"
-	"github.com/owncloud/ocis-thumbnails/pkg/server/debug"
-	"github.com/owncloud/ocis-thumbnails/pkg/server/grpc"
+	"github.com/refs/mono/thumbnails/pkg/config"
+	"github.com/refs/mono/thumbnails/pkg/flagset"
+	"github.com/refs/mono/thumbnails/pkg/metrics"
+	"github.com/refs/mono/thumbnails/pkg/server/debug"
+	"github.com/refs/mono/thumbnails/pkg/server/grpc"
 	"go.opencensus.io/stats/view"
 	"go.opencensus.io/trace"
 )
@@ -35,6 +35,7 @@ func Server(cfg *config.Config) *cli.Command {
 			return ParseConfig(c, cfg)
 		},
 		Action: func(c *cli.Context) error {
+			fmt.Println("\n\nYO!\n\n")
 			logger := NewLogger(cfg)
 			if cfg.Tracing.Enabled {
 				switch t := cfg.Tracing.Type; t {

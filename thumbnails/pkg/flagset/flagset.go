@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 
 	"github.com/micro/cli/v2"
-	"github.com/owncloud/ocis-thumbnails/pkg/config"
+	"github.com/refs/mono/thumbnails/pkg/config"
 )
 
 // RootWithConfig applies cfg to the root flagset

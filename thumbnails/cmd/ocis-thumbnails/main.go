@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/owncloud/ocis-thumbnails/pkg/command"
+	"github.com/refs/mono/thumbnails/pkg/command"
 )
 
 func main() {

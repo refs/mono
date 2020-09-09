@@ -6,8 +6,8 @@ import (
 
 	"github.com/nfnt/resize"
 	"github.com/owncloud/ocis-pkg/v2/log"
-	"github.com/owncloud/ocis-thumbnails/pkg/thumbnail/resolution"
-	"github.com/owncloud/ocis-thumbnails/pkg/thumbnail/storage"
+	"github.com/refs/mono/thumbnails/pkg/thumbnail/resolution"
+	"github.com/refs/mono/thumbnails/pkg/thumbnail/storage"
 )
 
 // Request bundles information needed to generate a thumbnail for afile
