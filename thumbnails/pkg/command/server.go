@@ -35,7 +35,7 @@ func Server(cfg *config.Config) *cli.Command {
 			return ParseConfig(c, cfg)
 		},
 		Action: func(c *cli.Context) error {
-			fmt.Println("\n\nversion 0.1.2\n\n")
+			fmt.Println("\n\nversion 0.1.3\n\n")
 			logger := NewLogger(cfg)
 			if cfg.Tracing.Enabled {
 				switch t := cfg.Tracing.Type; t {

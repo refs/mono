@@ -36,7 +36,7 @@ require (
 	github.com/owncloud/ocis-settings v0.3.2-0.20200902094647-35dc3aeaba78
 	github.com/owncloud/ocis-store v0.1.1
 	github.com/owncloud/ocis-webdav v0.1.1
-	github.com/refs/mono/thumbnails v0.0.0-20200909123921-603595833fb9
+	github.com/refs/mono/thumbnails v0.1.2
 	github.com/refs/pman v0.0.0-20200701173654-f05b8833071a
 	github.com/restic/calens v0.2.0
 	github.com/valyala/fasttemplate v1.2.1 // indirect

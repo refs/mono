@@ -1284,6 +1284,8 @@ github.com/rcrowley/go-metrics v0.0.0-20181016184325-3113b8401b8a/go.mod h1:bCqn
 github.com/rcrowley/go-metrics v0.0.0-20190826022208-cac0b30c2563/go.mod h1:bCqnVzQkZxMG4s8nGwiZ5l3QUCyqpo9Y+/ZMZ9VjZe4=
 github.com/refs/mono/thumbnails v0.0.0-20200909123921-603595833fb9 h1:3m7FNtN1dva7D2vWd+XnJ74b8kn4BWr/K9cV7pJ345g=
 github.com/refs/mono/thumbnails v0.0.0-20200909123921-603595833fb9/go.mod h1:kdb0kZMNao94DL9JnXgG+KW6TIqGWA9Yz1fLeVcs/+Y=
+github.com/refs/mono/thumbnails v0.1.2 h1:esLqJVmuIvX/IAs7g4++BwJsywwNWWtgNXQVR7XwbXE=
+github.com/refs/mono/thumbnails v0.1.2/go.mod h1:kdb0kZMNao94DL9JnXgG+KW6TIqGWA9Yz1fLeVcs/+Y=
 github.com/refs/pman v0.0.0-20200701173654-f05b8833071a h1:GCYFb7layULUl1HvZG97ur0zyqtEPo3VHcJCcBSvk7M=
 github.com/refs/pman v0.0.0-20200701173654-f05b8833071a/go.mod h1:fp4xg8dOs/XaZfB3abn1pxvclh10MtG4tdCc61lrmCo=
 github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0/go.mod h1:qqbHyh8v60DhA7CoWK5oRCqLrMHRGoxYCSS9EjAz6Eo=
